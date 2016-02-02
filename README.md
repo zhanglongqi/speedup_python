@@ -1,6 +1,7 @@
 # speedup_python
 Using C and Cython to speedup your python
 
+Thanks this [blog:](http://www.maxburstein.com/blog/speeding-up-your-python-code/)
 
 1. Compile C file to dynamic shared library
 

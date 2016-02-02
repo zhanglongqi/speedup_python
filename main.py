@@ -2,9 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 longqi 1/Feb/16 20:55
-Python	: 0.8736008979976759
-Cython	: 0.25456177699379623
-C lib	: 0.013578268997662235
+
 """
 from ctypes import *
 import timeit
