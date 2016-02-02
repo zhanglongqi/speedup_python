@@ -1,6 +1,7 @@
-
 /* functions.c */
-/* http://rosettacode.org/wiki/Sorting_algorithms/Merge_sort#C */
+//
+//gcc -dynamiclib -o libfunctions.dylib functions.c
+//
 #include <stdio.h>
 #include <stdlib.h>
 

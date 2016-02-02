@@ -7,13 +7,15 @@ Cython	: 0.25456177699379623
 C lib	: 0.013578268997662235
 """
 from ctypes import *
-import time, timeit
+import timeit
 
-import pyximport
+# import pyximport
+# pyximport.install()
 
-pyximport.install()
+# import fibRec_Cython
 import fibRec_Cython
 
+# import fibRec_C
 CLib = cdll.LoadLibrary("./libfunctions.dylib")
 
 
